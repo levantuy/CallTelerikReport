@@ -1,0 +1,5 @@
+1. Display Expanded Mark
+As explained in the Drilldown Report Action help article, "To define if the item exposing the action will be rendered initially with expanded or with collapsed mark, use the DisplayExpandedMark property." 
+In other words the "Toggle mark initially expanded" checkbox defines if the item exposing the action will be rendered initially with expanded or with collapsed mark. It does not control the Visibility of the actual item. 
+In other words, in order to achieve your goal, you should hide the column group initially (Visible=false) and uncheck the "Toggle mark initially expanded" checkbox. 
+I've attached a short video from the CrossTab demo report that shows the desired behavior.
